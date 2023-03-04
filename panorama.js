@@ -12,12 +12,12 @@ var infospotPositions = [
 
 container = document.querySelector( '#container' );
 
-panorama = new PANOLENS.ImagePanorama( 'https://pchen66.github.io/Panolens/examples/asset/textures/equirectangular/tunnel.jpg' );
+panorama = new PANOLENS.ImagePanorama( 'https://live.staticflickr.com/65535/52724875371_87fde7b8a4_k.jpg' );
 panorama.addEventListener( 'enter-fade-start', function(){
   viewer.tweenControlCenter( lookAtPositions[0], 0 );
 } );
 
-panorama2 = new PANOLENS.ImagePanorama( 'https://pchen66.github.io/Panolens/examples/asset/textures/equirectangular/cabin.jpg' );
+panorama2 = new PANOLENS.ImagePanorama( 'https://live.staticflickr.com/65535/52724874806_33cdec9c08_k.jpg' );
 panorama2.addEventListener( 'enter', function(){
   viewer.tweenControlCenter( lookAtPositions[1], 0 );
 } );
